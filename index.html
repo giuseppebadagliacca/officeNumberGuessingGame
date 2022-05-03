@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>The Office Number Guesser</title>
+</head>
+<body>
+  <div id="container">
+    <h1 class="flex">The Office Number Guesser Game</h1>
+    <div id="game">
+      <p>Guess a number between 1 and 10</p>
+      <p>Guesses left: <span id="choices"></span></p>
+      <p style = "text-decoration: underline;font-size: 30px;" id="past-guesses">||</p>
+      <input type="number" id="guess-input" placeholder="Enter your guess...">
+      <input type="submit" value="submit" class="guess-btn">
+      <p id="message"></p>
+      <div id="photo"></div>
+    </div>
+  </div>
+</body>
+<script src="/ap.js"></script>
+</html>

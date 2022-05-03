@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/gifs/background.jpeg);
+    background-size: 100% 100%;
+    color: beige;
+    display: flex;
+}
+#container{
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding-left: 35px;
+} 
+#game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+img{
+    height: 300px;
+    border-radius: 10px;
+}
+.guess-btn{
+    color: beige;
+    background: rgba(110, 110, 100, 0.198);
+    border: none;
+}
+
+.guess-btn:hover{
+    background-color: antiquewhite;
+    color: #333;
+}
