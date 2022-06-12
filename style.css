@@ -31,6 +31,9 @@
     .guess-btn:hover{
         color: #333;
     }
+    input:focus{
+        zoom: 0% !important;
+    }
 }
 
 @media (min-width: 500px) {
